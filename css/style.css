@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navigation */
+
+.header {
+    background-color: #1d1d1d;
+}
+
+.menu,
+.description,
+.images,
+.lists,
+.table,
+.form {
+    background-color: #e7e7e7;;
+}
+
+
+.container {
+    width: 1004px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 5px 0 5px 0;
+}
+
+.logo__caption {
+    font-family: 'Domine', serif;
+    font-size: 27px;
+    letter-spacing: -1.5px;
+    color: white;
+}
+
+.gray {
+    font-family: 'Domine', serif;
+    color: gray;
+}
+
+.logo__text {
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    color: white;
+}
+
+.header__form {
+    padding: 12px 3px 0 0;
+}
+
+.header__form_input {
+    background-color: #323232;
+    border: 1px solid #4c4c4c;
+    width: 349px;
+    height: 25px;
+    margin-right: 7px;
+    color: white;
+}
+
+.header__form_btn {
+    width: 75px;
+    padding: 5px 0px;
+    background-color: black;
+    color: white;
+    border: 1px solid #4c4c4c;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+}
+
+/* slider */
+
+.container__city {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.city__image {
+   width: 100%;
+} 
+
+.city__text {
+    position: absolute;
+    color: white;
+    width: 100%;
+    background-color: #0d0d0ca6;
+    font-size: 12px;
+    padding: 0px 0 14px 24px;
+    box-sizing: border-box;
+    bottom: 0;
+}
+
+/* menu */
+
+.menu {
+    background-color: #e0dede;
+}
+
+.menu__list {
+    display: flex;
+    background-color: black;
+}
+
+.menu__item {
+    list-style: none;
+    padding: 10px 22px 7px 25px;
+    color: white;
+    font-size: 16px;
+}
+
+/* description */
+
+.descriotion {
+    background-color: #e0dede;
+}
+
+.container__description {
+    padding: 11px 0 10px 15px;
+}
+
+.description__caption {
+    font-weight: bold;
+    color: gray;
+    font-size: 28px;
+    letter-spacing: 1.2px;
+}
+
+.description__caption::first-letter {
+    color: black;
+}
+
+.description__text {
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.description__text--italic {
+    color: gray;
+    font-size: 13px;
+    padding: 5px 0 0 23px;
+}
+
+.description__text_link {
+    color: blue;
+}
+
+/* images block */
+
+.images__container {
+    padding: 14px 0 0 15px;
+}
+
+.images__caption {
+    font-size: 21px;
+    font-weight: bold;
+    color: gray;
+}
+
+.images__caption::first-letter {
+    color: black;
+}
+
+.images__box {
+    display: flex;
+}
+
+.images__city {
+    width: 200px;
+    height: 143px;
+    margin: 7px 19px 0 2px;
+    background-color: #cecdcd;
+    padding: 12px 11px;
+}
+
+/* lists block */
+
+.list__container {
+    padding: 23px 0 0 16px;
+}
+
+.lists__caption {
+    font-size: 21px;
+    font-weight: bold;
+    color: gray;
+    letter-spacing: -0.5px;
+}
+
+.lists__box {
+    display: flex;
+    padding: 8px 0 0 35px;
+}
+
+.list__dotted,
+.list__number,
+.list__un-checked {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.list__dotted {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.list__number {
+    list-style: decimal;
+    margin-left: 65px;
+}
+
+.list__un-checked {
+    list-style: none;
+    text-align: center;
+    padding-left: 55px;
+}
+
+/* block table */
+
+.table__box {
+    padding: 38px 0 10px 17px;
+}
+
+.table__caption {
+    font-weight: bold;
+    color: gray;
+    font-size: 20px;
+}
+
+.table__caption::first-letter{
+    color: black;
+}
+
+.table__container {
+    border-collapse: collapse;
+    margin-top: 13px;
+    width: 100%;
+}
+
+.table th, .table td {
+    border: 1px solid #bcb8b8;
+    padding: 8px 10px;
+    font-weight: normal;
+    font-size: 13px;
+}
+/* forms */
+
+.form__container {
+    padding: 5px 0 0 16px;
+}
+
+.form__caption {
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+
+.label {
+    display: flex;
+    font-size: 13px;
+    margin-top: 13px;
+}  
+
+.form__input {
+    width: 221px;
+    padding: 5px 0;
+    margin-top: 2px;
+}
+
+.option {
+    width: 225px;
+    padding: 6px 0;
+}
+
+.checkbox {
+    margin: 19px 0 0 2px;
+}
+
+.checkbox__lebel,
+.radio__label {
+    font-size: 13px;
+}
+
+.radio {
+    margin: 10px 0 0 3px;
+}
+
+.textarea {
+    display: flex;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.textarea__form {
+    width: 303px;
+    height: 123px;
+}
+
+.form__button {
+    margin: 12px 0 0 0;
+    width: 93px;
+    padding: 8px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+@media screen and (max-width: 980px) {
+    .container {
+        width: 850px;
+    }
+
+    .images__box {
+        flex-wrap: wrap;
+    }
+
+    .images__city {
+        width: 165px;
+    }
+
+
+}
+
+@media screen and (max-width: 870px) {
+    .container {
+        width: 800px;
+    }
+
+    .logo__caption {
+        font-size: 25px;
+    }
+
+    .logo__text {
+        font-size: 10px;
+    }
+
+    .header__form_input {
+        width: 320px;
+    }
+
+    .images__city {
+        width: 145px;
+        height: 126px;
+    }
+
+    .description__text {
+        width: 700px;
+    }
+
+    .lists__box {
+        width: 700px;
+        margin-top: 12px;
+    }
+
+    .table__container {
+        width: 700px;
+    }
+
+    .header__form {
+        margin-right: 16px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .container {
+        width: 680px;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    .header__form {
+        margin-right: 20px;
+    }
+
+    .header__form_input {
+        width: 273px;
+    }
+
+    .header__form_btn {
+        width: 65px;
+    }
+
+    .description__text {
+        width: 600px;
+    }
+
+    .description__caption {
+        font-size: 25px;
+    }
+
+    .lists__box {
+        width: 600px;
+        padding-left: 11px;
+    }
+
+    .table__container {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .container {
+        width: 580px;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+
+    .images__city {
+        width: 150px;
+    }
+
+    .lists__box,
+    .table__container,
+    .description__text {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .container {
+        width: 450px;
+    }
+
+    .header__form_input {
+        width: 170px;
+    }
+
+    .header__form_btn {
+        width: 50px;
+        font-size: 10px;
+    }
+
+    .lists__box, 
+    .table__container, 
+    .description__text {
+        width: 400px;
+    }
+}
